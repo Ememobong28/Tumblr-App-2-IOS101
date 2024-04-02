@@ -17,6 +17,7 @@
 		ED59162429BC4921000F25AE /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED59162329BC4921000F25AE /* Post.swift */; };
 		ED59162629BC4CC8000F25AE /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED59162529BC4CC8000F25AE /* PostCell.swift */; };
 		ED59162929BC50E7000F25AE /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = ED59162829BC50E7000F25AE /* Nuke */; };
+		EE6BA4B52BB6758700595BA1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6BA4B42BB6758700595BA1 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		ED59161D29BC307E000F25AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED59162329BC4921000F25AE /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		ED59162529BC4CC8000F25AE /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		EE6BA4B42BB6758700595BA1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				ED59161829BC307E000F25AE /* Assets.xcassets */,
 				ED59161A29BC307E000F25AE /* LaunchScreen.storyboard */,
 				ED59161D29BC307E000F25AE /* Info.plist */,
+				EE6BA4B42BB6758700595BA1 /* DetailViewController.swift */,
 			);
 			path = "ios101-project6-tumblr";
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				ED59162429BC4921000F25AE /* Post.swift in Sources */,
 				ED54EF4D29D5382800B6AD22 /* String+Extensions.swift in Sources */,
 				ED59162629BC4CC8000F25AE /* PostCell.swift in Sources */,
+				EE6BA4B52BB6758700595BA1 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,8 +311,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NUMH9XKJ9A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ios101-project6-tumblr/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tumblr 2";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +325,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.ios101-project6-tumblr";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Immanuella.Tumblr-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -334,8 +340,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NUMH9XKJ9A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ios101-project6-tumblr/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tumblr 2";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -346,7 +354,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.ios101-project6-tumblr";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Immanuella.Tumblr-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
